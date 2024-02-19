@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.font-inter{
+    font-family: 'inter', sans-serif;
+}
+.font-raleway{
+    font-family: 'raleway', sans-serif;
+}
+.seatplan{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.seats{
+    
+    border: 2px;
+    height: 42px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.seats{
+    background-color:lightgray;
+    border: none;
+}
